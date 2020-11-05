@@ -1,0 +1,40 @@
+{
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "serv": "static build"
+  },
+  "rules": {
+    "no-missing-end-of-source-newline": null
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@vue/cli": "^4.4.1",
+    "@vue/cli-service-global": "^4.4.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "body-parser": "^1.19.0",
+    "css-loader": "^3.5.3",
+    "element-ui": "^2.14.0",
+    "fs": "^0.0.1-security",
+    "html-webpack-plugin": "^4.3.0",
+    "path": "^0.12.7",
+    "sass-loader": "^8.0.2",
+    "ts-loader": "^7.0.5",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "depd": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "vue": "^2.6.12",
+    "vue-style-loader": "^4.1.2"
+  }
+}
